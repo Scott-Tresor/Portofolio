@@ -1,40 +1,41 @@
 .main{
-  background: #F7FAFC;
+  background: #ffffff;
   color: black;
   height: 450px;
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 .content {
   background-position: center;
-  background-size: cover;
-  background: #000;
+  height: 100%;
+  width: auto;
+  background-repeat: no-repeat;
 }
 .navbar-title{
   margin-top: 58px;
 }
 .move{
-  font-size: 28px;
+  font-size: 25px;
   font-weight: bolder;
 }
 .square{
   height: 12px;
   width: 12px;
   display: inline-block;
-  background: #97acf0;
+  background: #f9a826;
   margin: 5px 0;
 }
 .sizing{
   z-index: auto;
   font-size: 49px;
   text-shadow: 0.1px 1px 1px black;
-  color: #2b044d;
+  color: #2f2e41;
 }
 .header-title{
   font-size: 19px;
 }
 .btn-rounded {
   padding: 16px 40px;
-  border: 2px solid #97acf0;
+  border: 2px solid #f9a826;
   outline: none;
   font-weight: bold;
   border-radius: .5em;
@@ -45,6 +46,35 @@
 }
 .header-button {
   margin-bottom: 20px;
+}
+@media only screen and (max-width: 990px){
+  .sizing{
+    z-index: auto;
+    font-size: 36px;
+    text-shadow: 0.1px 1px 1px black;
+    color: #2f2e41;
+  }
+  .content img{
+    margin-top: 58px;
+  }
+  span.square{
+    display: none;
+  }
+  .btn-rounded {
+    padding: 13px 40px;
+    border: 2px solid #f9a826;
+    outline: none;
+    font-weight: bold;
+    border-radius: .5em;
+  }
+  .header-p{
+    line-height: 21px;
+    color: #777;
+  }
+  .move{
+    font-size: 20px;
+    font-weight: bolder;
+  }
 }
 @media only screen and (max-width:590px){
   .header-title{
@@ -79,21 +109,30 @@
   }
 }
 
-@media only screen and (max-width:411px) {
+@media only screen and (max-width:420px) {
   .main{
     height: 350px;
+  }
+  .navbar-title{
+    margin-top: 26px;
   }
   .square{
     display: none;
   }
   .header-title{
-    padding-top: 19%;
+    padding-top: 1%;
     font-size: 19px;
     text-align: center;
   }
+  .sizing {
+    z-index: auto;
+    font-size: 30px;
+    text-shadow: 0.1px 1px 1px black;
+    color: #2f2e41;
+  }
   .header-title p{
     text-transform: uppercase;
-    padding-bottom: 4%;
+    padding-bottom: 1%;
     margin-bottom: 0;
     text-align: center;
   }
@@ -103,7 +142,7 @@
     text-align: center;
   }
   .header-p{
-    font-size: 15px;
+    font-size: 14px;
     color: rgba(1, 2, 8, 0.78);
     font-weight: bold;
     text-align: center;
@@ -113,10 +152,14 @@
     text-align: center;
   }
   .btn-rounded {
-    border-radius: 10em;
+    border-radius: .5em;
     padding: 5px 19px;
   }
-
+  .content {
+    display: none;
+    top: 0;
+    bottom: 0;
+  }
 }
 
 span{
