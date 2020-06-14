@@ -4,19 +4,59 @@
   height: 450px;
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
-
-@media only screen and (max-width:411px) {
-  .main{
-    height: 350px;
-  }
+.content {
+  background-position: center;
+  background-size: cover;
+  background: #000;
+}
+.navbar-title{
+  margin-top: 58px;
+}
+.move{
+  font-size: 28px;
+  font-weight: bolder;
+}
+.square{
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  background: #97acf0;
+  margin: 5px 0;
+}
+.sizing{
+  z-index: auto;
+  font-size: 49px;
+  text-shadow: 0.1px 1px 1px black;
+  color: #2b044d;
+}
+.header-title{
+  font-size: 19px;
+}
+.btn-rounded {
+  padding: 16px 40px;
+  border: 2px solid #97acf0;
+  outline: none;
+  font-weight: bold;
+  border-radius: .5em;
+}
+.header-p{
+  line-height: 29px;
+  color: #777;
+}
+.header-button {
+  margin-bottom: 20px;
+}
+@media only screen and (max-width:590px){
   .header-title{
-    padding-top: 19%;
+    padding-top: 10%;
     font-size: 19px;
+    text-align: center;
   }
   .header-title p{
     text-transform: uppercase;
     padding-bottom: 4%;
     margin-bottom: 0;
+    text-align: center;
   }
   .header-button {
     padding-top: 3%;
@@ -25,20 +65,62 @@
   }
   .header-p{
     font-size: 15px;
-    color: rgba(79, 209, 196, 0.582);
+    color: rgba(1, 2, 8, 0.78);
     font-weight: bold;
+    text-align: center;
   }
   .header-link{
     padding-top: 5%;
     text-align: center;
   }
+  .btn-rounded {
+    border-radius: 10em;
+    padding: 10px 28px;
+  }
 }
-.btn-rounded {
-  border-radius: 10em;
-  padding: 5px 19px;
+
+@media only screen and (max-width:411px) {
+  .main{
+    height: 350px;
+  }
+  .square{
+    display: none;
+  }
+  .header-title{
+    padding-top: 19%;
+    font-size: 19px;
+    text-align: center;
+  }
+  .header-title p{
+    text-transform: uppercase;
+    padding-bottom: 4%;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .header-button {
+    padding-top: 3%;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .header-p{
+    font-size: 15px;
+    color: rgba(1, 2, 8, 0.78);
+    font-weight: bold;
+    text-align: center;
+  }
+  .header-link{
+    padding-top: 5%;
+    text-align: center;
+  }
+  .btn-rounded {
+    border-radius: 10em;
+    padding: 5px 19px;
+  }
+
 }
+
 span{
-  color: #4FD1C5;
+  color: #0d0c46eb;
 }
 
 
