@@ -1,0 +1,44 @@
+.main{
+  background: #F7FAFC;
+  color: black;
+  height: 450px;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+@media only screen and (max-width:411px) {
+  .main{
+    height: 350px;
+  }
+  .header-title{
+    padding-top: 19%;
+    font-size: 19px;
+  }
+  .header-title p{
+    text-transform: uppercase;
+    padding-bottom: 4%;
+    margin-bottom: 0;
+  }
+  .header-button {
+    padding-top: 3%;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .header-p{
+    font-size: 15px;
+    color: rgba(79, 209, 196, 0.582);
+    font-weight: bold;
+  }
+  .header-link{
+    padding-top: 5%;
+    text-align: center;
+  }
+}
+.btn-rounded {
+  border-radius: 10em;
+  padding: 5px 19px;
+}
+span{
+  color: #4FD1C5;
+}
+
+
