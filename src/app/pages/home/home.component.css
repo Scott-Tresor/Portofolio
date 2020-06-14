@@ -47,6 +47,11 @@
 .header-button {
   margin-bottom: 20px;
 }
+
+.speciality{
+  margin-top: 74px;
+}
+
 @media only screen and (max-width: 990px){
   .sizing{
     z-index: auto;
@@ -113,6 +118,9 @@
   .main{
     height: 350px;
   }
+  .speciality{
+    margin-top: 50px;
+  }
   .navbar-title{
     margin-top: 26px;
   }
@@ -166,9 +174,7 @@ span{
   color: #0d0c46eb;
 }
 
-.speciality{
-  margin-top: 60px;
-}
+
 
 #special{
   text-align: right;
@@ -186,4 +192,21 @@ span{
   font-size: 37px;
   font-weight: bolder;
   color: #37474F;
+}
+
+.special-p{
+  font-size: medium;
+  font-weight: bold;
+  color: #2e569a;
+}
+
+.special-body{
+  font-size: 13px;
+  color: #777;
+  font-weight: 500;
+  padding-top: 5%;
+}
+
+.special-card{
+  padding-top: 5%;
 }
