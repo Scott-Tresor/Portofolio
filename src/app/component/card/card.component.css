@@ -1,0 +1,19 @@
+.raduis{
+  border-radius: .5em;
+}
+.img-font{
+  padding: 15px 19px;
+}
+
+.img-font svg {
+  margin: 5%;
+  border-radius: 2em;
+}
+.img-p{
+  opacity: .8;
+  font-size: medium;
+}
+
+.img-font h2 {
+  font-weight: 600;
+}

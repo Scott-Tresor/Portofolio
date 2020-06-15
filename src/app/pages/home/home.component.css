@@ -13,6 +13,7 @@
 .navbar-title{
   margin-top: 58px;
 }
+
 .move{
   font-size: 25px;
   font-weight: bolder;
@@ -49,7 +50,7 @@
 }
 
 .speciality{
-  margin-top: 74px;
+  margin-top: 15%;
 }
 
 @media only screen and (max-width: 990px){
@@ -168,12 +169,17 @@
     top: 0;
     bottom: 0;
   }
+  .speciality{
+    margin-top: 10%;
+  }
+  #special{
+    margin-top: 10%;
+  }
 }
 
 span{
   color: #0d0c46eb;
 }
-
 
 
 #special{
@@ -207,6 +213,6 @@ span{
   padding-top: 5%;
 }
 
-.special-card{
-  padding-top: 5%;
+#special-card{
+  padding-top: 10%;
 }

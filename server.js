@@ -1,13 +1,12 @@
 let express = require('express');
 let path = require('path');
-var compression = require('compression')
+var compression = require('compression');
 
 let app = express();
-app.use(compression())
+app.use(compression());
 app.use(express.static(__dirname + '/dist/portofolio'));
 
 app.get('/*', function(req,res) {
-  res.setHeader('Content-Type', 'text/event-stream')
   res.sendFile(path.join(__dirname+'/dist/portofolio/index.html'));
 });
 
