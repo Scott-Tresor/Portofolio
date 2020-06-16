@@ -49,6 +49,7 @@
   margin-bottom: 20px;
 }
 
+
 .speciality{
   margin-top: 15%;
 }
@@ -216,3 +217,14 @@ span{
 #special-card{
   padding-top: 10%;
 }
+
+/*Portofolio*/
+.porto{
+  margin-top: 50px;
+  background: url('/assets/images/bg11.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 100%;
+}
+

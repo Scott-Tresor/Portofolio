@@ -8,6 +8,7 @@
 .img-font svg {
   margin: 5%;
   border-radius: 2em;
+  background: #a4baec66;
 }
 .img-p{
   opacity: .8;
@@ -16,4 +17,7 @@
 
 .img-font h2 {
   font-weight: 600;
+}
+svg {
+  padding: 3px 5px;
 }
