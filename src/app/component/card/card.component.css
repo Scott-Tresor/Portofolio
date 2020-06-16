@@ -10,6 +10,11 @@
   border-radius: 2em;
   background: #a4baec66;
 }
+.img-font svg:hover {
+  background: #9ebdf1;
+  transition: background .5s;
+  transition: border .5s;
+}
 .img-p{
   opacity: .8;
   font-size: medium;
