@@ -292,3 +292,20 @@ span{
 .flex-center ul li:last-of-type {
   margin-bottom: 0
 }
+
+.service-p {
+  margin-top: 10%;
+}
+
+.service-p span{
+  color: #0a1617;
+  font-weight: 600;
+  font-size: 18px;
+  background: #a4baec66;
+  padding: 10px;
+  border-radius: .6em;
+}
+
+.service-project{
+  margin-top: 4%;
+}
