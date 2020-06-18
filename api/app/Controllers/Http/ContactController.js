@@ -17,7 +17,12 @@ class ContactController {
    * @param {Response} ctx.response
    * @param {View} ctx.view
    */
-  async index ({ request, response, view }) {
+  async index ({view }) {
+    let data = [
+      'name',
+      'username'
+    ]
+    return view.render('contact.index', {data: data.toJson})
   }
 
   /**
