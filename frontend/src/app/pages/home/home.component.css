@@ -198,7 +198,7 @@ span{
 .special-title{
   font-size: 37px;
   font-weight: bolder;
-  color: #37474F;
+  color: #1D3258;
 }
 
 .special-p{
@@ -298,14 +298,18 @@ span{
 }
 
 .service-p span{
-  color: #0a1617;
+  color: #1D3258;
   font-weight: 600;
   font-size: 18px;
-  background: #a4baec66;
+  background: #e4d2f9;
   padding: 10px;
   border-radius: .6em;
 }
 
+.service-p p {
+  color: #4c5069;
+  line-height: 18px;
+}
 .service-project{
   margin-top: 4%;
 }

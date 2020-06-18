@@ -1,3 +1,44 @@
 .footer{
   margin-top: 50px;
 }
+
+/* Color Theme Swatches in Hex */
+.COREFLIGHTS-—-Mobile-App-1-hex { color: #0460D9; }
+.COREFLIGHTS-—-Mobile-App-2-hex { color: #0476D9; }
+.COREFLIGHTS-—-Mobile-App-3-hex { color: #1E3E59; }
+.COREFLIGHTS-—-Mobile-App-4-hex { color: #F24F13; }
+.COREFLIGHTS-—-Mobile-App-5-hex { color: #F2F2F2; }
+
+/* Color Theme Swatches in RGBA */
+.COREFLIGHTS-—-Mobile-App-1-rgba { color: rgba(4, 96, 216, 1); }
+.COREFLIGHTS-—-Mobile-App-2-rgba { color: rgba(4, 117, 216, 1); }
+.COREFLIGHTS-—-Mobile-App-3-rgba { color: rgba(30, 61, 89, 1); }
+.COREFLIGHTS-—-Mobile-App-4-rgba { color: rgba(242, 78, 19, 1); }
+.COREFLIGHTS-—-Mobile-App-5-rgba { color: rgba(242, 242, 242, 1); }
+
+/* Color Theme Swatches in HSLA */
+.COREFLIGHTS-—-Mobile-App-1-hsla { color: hsla(213, 96, 43, 1); }
+.COREFLIGHTS-—-Mobile-App-2-hsla { color: hsla(208, 96, 43, 1); }
+.COREFLIGHTS-—-Mobile-App-3-hsla { color: hsla(208, 49, 23, 1); }
+.COREFLIGHTS-—-Mobile-App-4-hsla { color: hsla(16, 89, 51, 1); }
+.COREFLIGHTS-—-Mobile-App-5-hsla { color: hsla(0, 0, 95, 1); }
+/* Color Theme Swatches in Hex */
+.Xiaomis-official-website-1-hex { color: #0F31F2; }
+.Xiaomis-official-website-2-hex { color: #0F1640; }
+.Xiaomis-official-website-3-hex { color: #164DF2; }
+.Xiaomis-official-website-4-hex { color: #2E83F2; }
+.Xiaomis-official-website-5-hex { color: #F23005; }
+
+/* Color Theme Swatches in RGBA */
+.Xiaomis-official-website-1-rgba { color: rgba(14, 48, 242, 1); }
+.Xiaomis-official-website-2-rgba { color: rgba(14, 22, 63, 1); }
+.Xiaomis-official-website-3-rgba { color: rgba(21, 76, 242, 1); }
+.Xiaomis-official-website-4-rgba { color: rgba(46, 131, 242, 1); }
+.Xiaomis-official-website-5-rgba { color: rgba(242, 48, 4, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Xiaomis-official-website-1-hsla { color: hsla(230, 89, 50, 1); }
+.Xiaomis-official-website-2-hsla { color: hsla(230, 62, 15, 1); }
+.Xiaomis-official-website-3-hsla { color: hsla(225, 89, 51, 1); }
+.Xiaomis-official-website-4-hsla { color: hsla(213, 88, 56, 1); }
+.Xiaomis-official-website-5-hsla { color: hsla(11, 96, 48, 1); }

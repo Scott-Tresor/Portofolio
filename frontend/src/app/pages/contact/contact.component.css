@@ -1,0 +1,20 @@
+/* Color Theme Swatches in Hex */
+.AO---ecommerce-1-hex { color: #025949; }
+.AO---ecommerce-2-hex { color: #038C65; }
+.AO---ecommerce-3-hex { color: #D9A679; }
+.AO---ecommerce-4-hex { color: #BF4226; }
+.AO---ecommerce-5-hex { color: #F2F2F2; }
+
+/* Color Theme Swatches in RGBA */
+.AO---ecommerce-1-rgba { color: rgba(1, 89, 73, 1); }
+.AO---ecommerce-2-rgba { color: rgba(2, 140, 101, 1); }
+.AO---ecommerce-3-rgba { color: rgba(216, 165, 121, 1); }
+.AO---ecommerce-4-rgba { color: rgba(191, 66, 38, 1); }
+.AO---ecommerce-5-rgba { color: rgba(242, 242, 242, 1); }
+
+/* Color Theme Swatches in HSLA */
+.AO---ecommerce-1-hsla { color: hsla(168, 96, 17, 1); }
+.AO---ecommerce-2-hsla { color: hsla(163, 96, 28, 1); }
+.AO---ecommerce-3-hsla { color: hsla(28, 55, 66, 1); }
+.AO---ecommerce-4-hsla { color: hsla(11, 66, 44, 1); }
+.AO---ecommerce-5-hsla { color: hsla(0, 0, 95, 1); }
