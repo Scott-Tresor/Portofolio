@@ -18,3 +18,45 @@
 .AO---ecommerce-3-hsla { color: hsla(28, 55, 66, 1); }
 .AO---ecommerce-4-hsla { color: hsla(11, 66, 44, 1); }
 .AO---ecommerce-5-hsla { color: hsla(0, 0, 95, 1); }
+
+
+.contact{
+  height: 350px;
+  width: 100%;
+  background: #025949;
+  color: white;
+}
+
+.pt-6{
+  padding-top: 10%;
+}
+
+span {
+  height: 50px;
+  width: 100px;
+  background: #F2F2F2;
+}
+
+.pt-6 h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 2%;
+}
+
+
+.contact-pages{
+  margin-top: 10%;
+}
+.contact-form {
+  padding: 30px;
+}
+.contact-pages h3 {
+  text-align: center;
+  margin-bottom: 5%;
+  font-weight: bold;
+  color: #20202A;
+}
+
+.contact-img{
+  text-align: center;
+}
