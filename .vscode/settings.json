@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "${workspaceFolder:portofolio}/api/database/adonis.sqlite",
+            "driver": "SQLite",
+            "name": "root",
+            "previewLimit": 50
+        }
+    ]
+}
