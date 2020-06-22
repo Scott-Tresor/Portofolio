@@ -1,0 +1,21 @@
+<form (ngSubmit)="partager(form)" #form="ngForm">
+  <div class="form-group">
+    <label for="">Username</label>
+    <input [(ngModel)]="username" name="username" required type="text"  class="form-control" >
+  </div>
+  <div class="form-group">
+    <label for="">Email</label>
+    <input [(ngModel)]="email" name="email" required type="text"  class="form-control" >
+  </div>
+  <div class="form-group">
+    <label for="">Phones</label>
+    <input [(ngModel)]="phone" name="phone" required type="phone"  class="form-control" >
+  </div>
+  <div class="form-group">
+    <label for="">Messages</label>
+    <textarea [(ngModel)]="message" name="message" required class="form-control"  rows="3"></textarea>
+  </div>
+  <div class="mt-4">
+    <button [disabled]="form.invalid" class="btn btn-primary btn-block" >Envoyer</button>
+  </div>
+</form>
