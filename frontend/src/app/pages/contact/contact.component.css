@@ -67,6 +67,14 @@
   text-decoration: none;
   color: black;
 }
+
+.contact-button a:link {
+  list-style: none;
+  text-decoration: none;
+  display: row;
+  flex-direction: row;
+}
+
 /*==============================================================*/
                     /*span contact*/
 /*==============================================================*/
@@ -101,9 +109,14 @@
     padding-top: 4.5%;
   }
 
+  .contact-h{
+    margin-top: 8%;
+    text-align: center;
+  }
+
   .contact-h h2{
     font-size: 19px;
-    margin-bottom: 10px;
+    margin-bottom: 4%;
   }
 
   .font-c h5{
@@ -113,6 +126,21 @@
   .font-c p {
     text-align: center;
     margin-top: 4%;
+    margin-bottom: 0;
+  }
+  .contact-button a:link {
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .contact-button p {
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 5px;
+    transition: all .25s;
   }
 
 }
