@@ -252,6 +252,7 @@ span{
 
 /*===========================================================*/
 
+
 @media only screen and (max-width: 990px){
   .sizing{
     z-index: auto;
@@ -279,6 +280,28 @@ span{
   .move{
     font-size: 20px;
     font-weight: bolder;
+  }
+  .porto-item{
+    border: 2px solid #000000;
+    height: 170px;
+    width:170px;
+    max-height:100%;
+    border-radius:50%;
+    padding:25% 10px;
+    text-align: center;
+    transition: background .5s;
+    transition: border .5s;
+
+  }
+  .porto-item:hover{
+    border:10px solid #9ebdf1;
+    background: #2e569ae5;
+    color:#ffffff;
+
+  }
+
+  .service-p  h2 {
+    font-size: 30px;
   }
 }
 @media only screen and (max-width:590px){
@@ -314,9 +337,12 @@ span{
   }
 }
 
-@media only screen and (max-width:414px) {
+@media only screen and (max-width:420px) {
   .main{
     height: 350px;
+  }
+  .speciality{
+    margin-top: 50px;
   }
   .navbar-title{
     margin-top: 26px;
@@ -371,46 +397,40 @@ span{
   #special{
     margin-top: 10%;
   }
-  .home-sticky{
-    margin-top: 12%;
-  }
-  .special-p{
-    text-align: center;
-    font-size: 28px;
-  }
-  .special-title{
-    text-align: center;
-    margin-bottom: 7%;
-  }
-  .special-sp {
-    display: none;
-  }
-  .special-body{
-    padding: 4%;
-    text-align: justify;
-    line-height: normal;
-  }
-  .progress-wrap{
-    padding: 4%;
-  }
 
-  .porto{
-    display: none;
-  }
-  .service-p{
+  .home-sticky{
     margin-top: 15%;
   }
-  .service-p span, .service-p button {
-    display: none;
-  }
-  .service-p h2{
+  .special-p {
     text-align: center;
     font-size: 30px;
   }
+  .special-sp{
+    display: none;
+  }
+  .special-title{
+    text-align: center;
+    justify-content: center;
+  }
 
-  .service-p p{
-    padding: 4%;
+  .special-body{
     text-align: justify;
-    line-height: normal;
+    padding-top: 6px;
+  }
+  .porto{
+    display: none;
+  }
+
+  .service-p span, .service-p button {
+    display: none;
+  }
+
+  .service-p h2{
+    text-align: center;
+    font-size: 40px;
+  }
+  .news-button {
+    text-align: center;
+    margin: 34px 0px;
   }
 }
