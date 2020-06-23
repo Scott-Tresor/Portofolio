@@ -97,7 +97,7 @@
                     /*Media query*/
 /*==============================================================*/
 
-@media only screen and (max-width:360px){
+@media only screen and (max-width:414px){
   .contact{
     height: 270px;
     width: 100%;
@@ -142,5 +142,4 @@
     margin-left: 5px;
     transition: all .25s;
   }
-
 }

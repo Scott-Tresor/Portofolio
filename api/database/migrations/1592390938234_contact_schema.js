@@ -9,7 +9,8 @@ class ContactSchema extends Schema {
       table.increments()
       table.string('username').notNullable()
       table.string('email', 255).notNullable()
-      table.text('messages').notNullable()
+      table.string('phone', 20).notNullable()
+      table.text('message').notNullable()
       table.timestamps()
     })
   }

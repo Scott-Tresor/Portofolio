@@ -14,8 +14,6 @@
 */
 
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
-const Route = use('Route')
+const Route = use('Route');
 
-Route.on('/').render('welcome')
-
-Route.get('/contact', 'ContactController.index')
+Route.post('/contact', 'ContactController.store');

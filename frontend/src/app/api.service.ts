@@ -8,11 +8,12 @@ import { Contact } from './models/contact';
 })
 export class ApiService {
 
-  readonly API = 'http://localhost:';
+  readonly API = 'http://127.0.0.1:3333/';
   constructor(private http: HttpClient) {}
 
   storeContact(data: Contact): Observable<Contact[]>
   {
     return this.http.post<Contact[]>(this.API + 'contact', data);
   }
+
 }
