@@ -17,3 +17,4 @@
 const Route = use('Route');
 
 Route.post('/contact', 'ContactController.store');
+Route.get('/contact', 'ContactController.index');

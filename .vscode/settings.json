@@ -5,6 +5,12 @@
             "driver": "SQLite",
             "name": "root",
             "previewLimit": 50
+        },
+        {
+            "database": "${workspaceFolder:portofolio}/api/database/adonis.sqlite",
+            "driver": "SQLite",
+            "name": "adonis",
+            "previewLimit": 50
         }
     ]
 }
