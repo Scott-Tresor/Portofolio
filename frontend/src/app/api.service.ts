@@ -16,4 +16,9 @@ export class ApiService {
     return this.http.post<Contact[]>(this.API + 'contact', data);
   }
 
+  getContact(): Observable<Contact[]>
+  {
+    return this.http.get<Contact[]>(this.API + 'contact');
+  }
+
 }

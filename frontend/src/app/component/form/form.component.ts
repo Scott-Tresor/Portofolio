@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ApiService } from 'src/app/api.service';
 import { Router } from '@angular/router';
 import sweetAlert from 'sweetalert2';
+import { Contact } from '../../models/contact';
 
 @Component({
   selector: 'app-form',
@@ -16,6 +17,7 @@ export class FormComponent implements OnInit {
   message: string;
   loading: boolean;
   error: boolean;
+  contact: Contact[];
 
   constructor(private apiservice: ApiService, private route: Router) { }
 
@@ -47,6 +49,16 @@ export class FormComponent implements OnInit {
         }
       }
     );
+  }
+
+  loadArticles() {
+    this.apiservice.getContact().subscribe(
+      data => {
+        this.contact = data;
+        this.contact.forEach(a => {
+          console.log(a);
+        });
+      });
   }
 
 }

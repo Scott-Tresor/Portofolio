@@ -1,13 +1,13 @@
 {
     "sqltools.connections": [
         {
-            "database": "${workspaceFolder:portofolio}/api/database/adonis.sqlite",
+            "database": "${workspaceFolder:portofolio}/api/database/portofolios.sqlite",
             "driver": "SQLite",
             "name": "root",
             "previewLimit": 50
         },
         {
-            "database": "${workspaceFolder:portofolio}/api/database/adonis.sqlite",
+            "database": "${workspaceFolder:portofolio}/api/database/portofolios.sqlite",
             "driver": "SQLite",
             "name": "adonis",
             "previewLimit": 50
